@@ -1,6 +1,6 @@
 // INPUT 
 let number= Number(prompt('Type in a number'));
-let message='';
+let ='';
 
 // PROCESSING
 if (number % 2 === 0){
