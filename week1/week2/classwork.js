@@ -15,12 +15,17 @@
 // // console.log('loop break'); is not needed
 
 
-let even='even'
-let odd='odd'
-for(let count=15;count<=27;count=count+1){
-    
-    if  (count%2===0){
-        console.log(count+' even');}
-    else{console.log(count +' odd')};
-}
- 
+// let even='even'
+// let odd='odd'
+// for(let count=15;count<=27;count=count+1){
+//     if  (count%2===0){
+//         console.log(count+' even');}
+//     else{console.log(count +' odd')};
+// }
+  
+
+for(count=5;count>=1;count=count-1){
+    console.log(count)}
+    console.log('middle')
+for(count=1;count<=5;count=count+1){
+    console.log(count)}
