@@ -24,8 +24,16 @@
 // }
   
 
-for(count=5;count>=1;count=count-1){
-    console.log(count)}
-    console.log('middle')
-for(count=1;count<=5;count=count+1){
-    console.log(count)}
+// for(count=5;count>=1;count=count-1){
+//     console.log(count)}
+//     console.log('middle')
+// for(count=1;count<=5;count=count+1){
+//     console.log(count)}
+    
+
+function sayHello(name){
+    return 'Hello ' + name;
+}
+console.log(sayHello('Tinubu'));
+console.log(sayHello('mustapha'))
+console.log(sayHello('adeola'))
