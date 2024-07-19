@@ -11,4 +11,17 @@ body{
     border: 2px solid black;
     border-radius: 4px;
    text-align: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.sub-container{
+    display: none;
+    background-color: black;
+    color: white;
+    margin-left: 170px;
+    width: 80%;
+  border: 2px solid gray;
+  width: 300px;
+  padding: 35px;
+  box-sizing: border-box;
 }
