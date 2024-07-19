@@ -21,3 +21,11 @@ function displaySubscriptionBox(){
 }
 // displaySubscriptionBox();
 // document.body.onunload=alert('Are you sure you want to leave?')
+
+let input =document.getElementsByTagName('input');
+console.log(input)
+input.oninput=function (){
+    input.value=input.value.toUpperCase()
+};
+    
+}
