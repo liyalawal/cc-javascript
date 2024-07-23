@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/boat.jpg');
+    background-size:100%;
+    background-repeat: repeat;
+}
+.container{
+    padding: 20px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    background-color: rgba(255,255,255,0,323);
+    border-radius: 15px;
+}
+.quote{
+   
+    display: flex;
+}
+.quote-image{
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+}
