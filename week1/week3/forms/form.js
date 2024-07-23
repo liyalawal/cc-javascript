@@ -8,4 +8,4 @@ submit.addEventListener('click',function(){
     sum= Number(firstNum.value) + Number(secondNum.value);
     answer.textContent='Answer: '+ sum;
 })
-console.log(answer)
+console.log(answer)axZ
