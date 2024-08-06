@@ -1,0 +1,70 @@
+.title{
+    margin-left: 550px;
+    height: 180px;
+    color: green;
+    font-family: Noto Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+    .grid-container{
+        margin-left: 200px;
+        justify-content: center;
+        display: inline-grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 200px 200px;
+        gap: 100px;
+        grid-auto-rows: 200px;
+        grid-auto-columns: 200px;
+        grid-auto-flow: column;
+}
+
+button{
+    margin-left: 10px;
+    font-size: 10px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(71, 202, 71);
+    border-radius: 3px;
+}
+.sign{
+    background-color: skyblue;
+    width: 150px;
+    border-radius: 3px;
+    margin-left: 45px;
+}
+#grid{
+    border: solid black;
+    border-radius: 5px;
+   width: 240px;
+
+}
+h2{
+    font-size: 15px;
+    margin-left: 90px;
+    color: red;
+    font-family: Noto Verdana, Geneva, Tahoma, sans-serif
+}
+h3{
+    margin: 0;
+background-color: skyblue;    
+    padding: 15px;
+    color: red;
+}
+h4{
+    margin: 0;
+    color: green;
+    padding: 15px;
+    background-color: rgb(194, 192, 192);
+}
+h5{
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(194, 192, 192);
+    color: rgba(72, 45, 9, 0.667);
+    font-size: 15px;
+}
+h6{
+    margin-left: 20px;
+    color: green;
+  
+}
